@@ -142,7 +142,7 @@
             const verb = document.getElementById('verb').value;
             const noun = document.getElementById('noun').value;
 
-            const madLib = 'In a whimsical land filled with colorful $(plural noun), where $(adjective) $(noun) roam freely and enchanted $(noun) whisper secrets in the breeze, a brave $(adjective) $(noun) embarked on a daring quest to recover the lost $(noun), guided by ancient $(adjective) maps and fueled by boundless emotion.';
+            const madLib = 'In a whimsical land filled with colorful ${plural noun}, where ${adjective} ${noun} roam freely and enchanted ${noun} whisper secrets in the breeze, a brave ${adjective} ${noun} embarked on a daring quest to recover the lost ${noun}, guided by ancient ${adjective} maps and fueled by boundless emotion.';
 
             // Redirect to the new page with the Mad Lib result
             window.location.href = `madlib-result.html?result=${encodeURIComponent(madLib)}`;
